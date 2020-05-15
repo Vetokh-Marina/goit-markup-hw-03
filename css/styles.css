@@ -1,0 +1,149 @@
+/* основной цвет + номер телефона в шапке #757575 */
+/* цвет акцент #2196F3 */
+/* белый #ffffff */
+/* цвет заголовков #212121 */
+/* футер rgba(255,255,255,0.6) */
+
+
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primary-white-color:#ffffff;
+    --accent-color:#664704;
+
+}
+
+body{
+    font-family: Roboto,sans-serif;
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+   
+}
+
+/*Логотип*/
+.logo{
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo-footer{
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-web{
+    color: #2196F3;
+}
+.logo-studio{
+    color: black;
+
+}
+/* Навигация сайта */
+.site-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.link:hover,
+.studio :hover,
+.portfolio:hover,
+.contact:hover{
+    color: var(--accent-text-color);
+}
+/* Герой */
+.hero{
+    background-color:rgba(47, 48, 58, 0.8);
+}
+
+.hero-title{
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.button.primary{
+
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center; 
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+    text-decoration: none;
+}
+/* Наши преимущества */
+.section h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.advant-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.advant-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    
+}
+/* Чем мы занимаемся */
+.doing-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    border-radius: 0px 0px 4px 4px;
+    color: var(--primary-white-color);
+}
+/* Наша команда */
+.team-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    columns: var(--primary-text-color);
+
+}
+.team-title{
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+
+
+}
+
+
