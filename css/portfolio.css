@@ -36,6 +36,9 @@ p {
 }
 .list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .link-text {
   font-size: 18px;

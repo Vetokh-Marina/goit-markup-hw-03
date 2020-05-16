@@ -98,6 +98,13 @@ body {
 }
 
 /* Наши преимущества */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list .Item {
+  width: 278px;
+}
 .section h2 {
   margin-top: 94px;
   margin-bottom: 50px;

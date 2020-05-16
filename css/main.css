@@ -24,15 +24,31 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
+/* Утилиты */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .container {
   margin-left: 0;
   margin-right: 0;
   width: 1230px;
   outline: 2px solid tomato;
 }
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* page header */
 .page-header {
   background-color: #cccccc;
+}
+/* Main nav */
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
 /*Логотип*/
@@ -64,16 +80,35 @@ body {
 }
 /* Навигация сайта */
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
 }
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.site-nav {
+  display: flex;
+  margin-left: 86px;
+}
+/* Альтернативный вариант */
+/* .site-nav .item:not(:last-child) {
+  margin-right: 50px;
+} */
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+/* Cont nav */
+.cont-nav {
+  display: flex;
+  margin-left: auto;
+}
+.cont-nav .item + .item {
+  margin-left: 50px;
 }
 .link {
   text-decoration: none;
