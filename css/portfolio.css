@@ -1,10 +1,11 @@
 h2 {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
   color: var(--title-text-color);
 }
 h1 {
@@ -13,11 +14,12 @@ h1 {
 }
 p {
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  padding-left: 24px;
 }
 .button:hover,
 .button:focus {
@@ -33,16 +35,27 @@ p {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background: #f5f4fa;
+  margin-right: 8px;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 .list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
+.description {
+  padding-bottom: 94px;
+}
+.text {
+  display: none;
+}
 .description .Item {
   width: 380px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
 }
 .description .Item:nth-child(3n) {
   margin-right: 0;
@@ -62,4 +75,8 @@ p {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 56px;
+}
+.projects img {
+  display: block;
+  border-radius: 5px 5px 0px 0px;
 }

@@ -128,10 +128,13 @@ body {
   letter-spacing: 0.03em;
 }
 .advant-element:not(:last-child) {
-    margin-right: 30px;
+  margin-right: 30px;
 }
-.list .advant-element{
-    width: 277px;
+.list .advant-element {
+  width: 277px;
+}
+.list .advant-list {
+  display: flex;
 }
 /* Чем мы занимаемся */
 .doing-text {
@@ -148,8 +151,15 @@ body {
   border-radius: 0px 0px 4px 4px;
   color: var(--primary-white-color);
 }
-.doing-list:not(:last-child){
-    margin-right: 30px;
+.doing-list:not(:last-child) {
+  margin-right: 30px;
+}
+.section.doing {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.doing img {
+  display: block;
 }
 /* Наша команда */
 .team-position {
@@ -174,6 +184,9 @@ body {
 .team-element {
   text-align: center;
   background-color: var(--primary-white-color);
+  width: 278px;
+  text-align: center;
+  background-color: #fff;
 }
 .team-element:not(:last-child) {
   margin-right: 30px;
@@ -185,4 +198,15 @@ body {
 .team-position {
   margin-bottom: 28px;
 }
-.
+.team img {
+  display: block;
+  padding-bottom: 30px;
+}
+.list .slinks {
+  margin-left: 35px;
+}
+/* Клиенты */
+.klient .list {
+  display: flex;
+  justify-content: space-evenly;
+}
