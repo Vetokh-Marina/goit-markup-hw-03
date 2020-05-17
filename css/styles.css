@@ -17,12 +17,6 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-text-color);
 }
-.container {
-  margin-left: 0;
-  margin-right: 0;
-  width: 1230px;
-  outline: 2px solid tomato;
-}
 
 /*Логотип*/
 .logo {
@@ -116,8 +110,8 @@ body {
   color: var(--title-text-color);
 }
 .advant-title {
-  margin-top: 0;
-  margin-bottom: 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1;
@@ -133,10 +127,17 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.advant-element:not(:last-child) {
+    margin-right: 30px;
+}
+.list .advant-element{
+    width: 277px;
+}
 /* Чем мы занимаемся */
 .doing-text {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 0px;
+  padding: 27px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1;
@@ -147,6 +148,9 @@ body {
   border-radius: 0px 0px 4px 4px;
   color: var(--primary-white-color);
 }
+.doing-list:not(:last-child){
+    margin-right: 30px;
+}
 /* Наша команда */
 .team-position {
   margin-top: 0;
@@ -154,7 +158,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
-  /* text-align: center; */
   letter-spacing: 0.03em;
   columns: var(--primary-text-color);
 }
@@ -165,7 +168,21 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
-  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.team-element {
+  text-align: center;
+  background-color: var(--primary-white-color);
+}
+.team-element:not(:last-child) {
+  margin-right: 30px;
+}
+.team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-position {
+  margin-bottom: 28px;
+}
+.
