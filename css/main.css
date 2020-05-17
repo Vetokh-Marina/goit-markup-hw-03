@@ -34,7 +34,7 @@ body {
   margin-left: 15px;
   margin-right: 15px;
   width: 1230px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,9 +44,9 @@ body {
   height: auto;
 }
 /* page header */
-.page-header {
+/* .page-header {
   background-color: #cccccc;
-}
+} */
 /* Main nav */
 .main-nav {
   display: flex;

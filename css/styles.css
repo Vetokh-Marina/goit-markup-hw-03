@@ -60,7 +60,7 @@ body {
 
 .hero {
   background-color: rgba(47, 48, 58, 0.8);
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   text-align: center;
 }
 
