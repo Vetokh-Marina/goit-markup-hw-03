@@ -12,7 +12,6 @@ h1 {
   margin-bottom: 0px;
 }
 p {
-  margin-top: 0;
   margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
@@ -68,11 +67,10 @@ p {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.project .btn {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px;
+.project {
   padding-bottom: 56px;
+  text-align: center;
+  justify-content: center;
 }
 .project img {
   display: block;
