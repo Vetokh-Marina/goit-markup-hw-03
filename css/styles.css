@@ -9,7 +9,6 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
-  --accent-color: #664704;
 }
 
 body {
@@ -95,16 +94,16 @@ body {
 .list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .list .Item {
   width: 278px;
 }
 .section h2 {
-  margin-top: 94px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);

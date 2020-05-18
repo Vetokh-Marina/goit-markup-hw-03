@@ -125,8 +125,12 @@ body {
 .contact:hover {
   color: var(--accent-text-color);
 }
+/* Футер */
 footer {
   background-color: #2f303a;
+}
+.page-footer {
+  display: flex;
 }
 address {
   text-decoration: none;
@@ -142,4 +146,7 @@ address {
   line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.foot-end {
+  text-align: center;
 }
