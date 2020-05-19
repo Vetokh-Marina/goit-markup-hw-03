@@ -65,7 +65,8 @@ body {
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 46px;
+  padding-top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -85,6 +86,7 @@ body {
   background-color: var(--accent-text-color);
   text-decoration: none;
   border-radius: 4px;
+  margin-bottom: 200px;
   padding: 11px 32px;
   display: inline-block;
   min-width: 136px;
@@ -99,8 +101,14 @@ body {
 .list .Item {
   width: 278px;
 }
+/* Преимущества */
+.advant {
+  padding-top: 94px;
+}
 .section h2 {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-top: 94px;
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -150,8 +158,12 @@ body {
   border-radius: 0px 0px 4px 4px;
   color: var(--primary-white-color);
 }
-.doing-list:not(:last-child) {
+.doing-element:not(:last-child) {
   margin-right: 30px;
+}
+.doing-list .doing-element {
+  width: 370px;
+  border-radius: 0px 0px 4px 4px;
 }
 .section.doing {
   padding-top: 94px;
@@ -161,6 +173,10 @@ body {
   display: block;
 }
 /* Наша команда */
+.team {
+  padding-bottom: 94px;
+  background-color: #e5e5e5;
+}
 .team-position {
   margin-top: 0;
   margin-bottom: 0px;
@@ -171,8 +187,9 @@ body {
   columns: var(--primary-text-color);
 }
 .team-title {
-  margin-top: 0;
-  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0;
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
@@ -186,13 +203,12 @@ body {
   width: 278px;
   text-align: center;
   background-color: #fff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .team-element:not(:last-child) {
   margin-right: 30px;
-}
-.team-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 .team-position {
   margin-bottom: 28px;
@@ -202,10 +218,15 @@ body {
   padding-bottom: 30px;
 }
 .list .slinks {
-  margin-left: 35px;
+  justify-content: space-evenly;
 }
 /* Клиенты */
 .klient .list {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 94px;
+}
+.klient-element {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
