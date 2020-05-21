@@ -33,22 +33,18 @@ p {
   color: var(--title-text-color);
   background: #f5f4fa;
   margin-right: 8px;
-  margin-top: 94px;
-  margin-bottom: 50px;
 }
 .list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
-.description {
-  padding-bottom: 94px;
-}
 .text {
   display: none;
 }
 .description .description-item {
-  width: 380px;
+  /* width: calc((100%-30px * 2) / 3); */
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
@@ -68,14 +64,11 @@ p {
   color: var(--primary-text-color);
 }
 .project {
-  padding-bottom: 56px;
+  padding-bottom: 50px;
   text-align: center;
   justify-content: center;
 }
 .project img {
   display: block;
   border-radius: 5px 5px 0px 0px;
-}
-.project-title {
-  padding-left: 24px;
 }

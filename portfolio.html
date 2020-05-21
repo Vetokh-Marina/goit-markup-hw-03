@@ -47,9 +47,9 @@
       </nav>
     </header>
     <main>
-      <section class="project">
+      <section class="section project">
         <div class="container">
-          <h1>Наши проекты</h1>
+          <h1 class="visually-hidden">Наши проекты</h1>
           <ul class="project list">
             <li><button type="button" class="button">Все</button></li>
             <li>
@@ -72,7 +72,7 @@
                   <img
                     src="./img/portfolio/tehnokryak.jpg"
                     alt="Технокряк"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -95,7 +95,7 @@
                   <img
                     src="./img/portfolio/poster_new_golden_starts.jpg"
                     alt="Два баскетболиста"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -105,7 +105,7 @@
                   </p>
                 </div>
                 <div class="project-title">
-                  <h2>Постер New Orlean vs Golden Stars</h2>
+                  <h2>Постер New Orlean vs Golden Star</h2>
                   <p>Дизайн</p>
                 </div>
               </a>
@@ -116,7 +116,7 @@
                   <img
                     src="./img/portfolio/seafood.jpg"
                     alt="Рыба"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -137,7 +137,7 @@
                   <img
                     src="./img/portfolio/project_prime.jpg"
                     alt="Наушники"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -158,7 +158,7 @@
                   <img
                     src="./img/portfolio/progect_boxes.jpg"
                     alt="Два картонных коробка"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -179,7 +179,7 @@
                   <img
                     src="./img/portfolio/inspiration_has_no_borders.jpg"
                     alt="Монитор"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -202,7 +202,7 @@
                   <img
                     src="./img/portfolio/limited_edition.jpg"
                     alt="Книга"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -225,7 +225,7 @@
                   <img
                     src="./img/portfolio/project_lab.jpg"
                     alt="Проект лаб"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -248,7 +248,7 @@
                   <img
                     src="./img/portfolio/growing_business.jpg"
                     alt="Ноутбук"
-                    width="380"
+                    width="370"
                     height="294"
                   />
                   <p class="text">
@@ -270,49 +270,48 @@
       </section>
     </main>
     <footer>
-      <footer>
-        <div class="container page-footer">
-          <div>
-            <a href="./index.html" class="logo-footer link">
-              <span class="logo-web">Web</span>
-              <span class="logo-foot">Studio</span>
-            </a>
-            <address>
-              г. Киев, пр-т Леси Украинки, 26
-            </address>
-            <address>
-              <a href="mailto:info@devstudio.com" class="mail link"
-                >info@devstudio.com</a
-              ><br />
-              <a href="tel:+380961111111" class="phone link"
-                >+38 096 111 11 11</a
-              >
-            </address>
-          </div>
-          <div>
-            <h3 class="h3-foot">присоединяйтесь</h3>
-            <ul class="list">
-              <li>
-                <img src="./img/instagram.svg" aria-label="Инстаграм" />
-              </li>
-              <li>
-                <img src="./img/twitter1.svg" aria-label="Твитер" />
-              </li>
-              <li>
-                <img src="./img/facebook.svg" aria-label="Фейсбук" />
-              </li>
-              <li>
-                <img src="./img/linkedIn.svg" aria-label="Линкедин" />
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p class="h3-foot">подпишитесь на рассылку</p>
+      <div class="container page-footer">
+        <div class="footer-address">
+          <a href="./index.html" class="logo-footer link">
+            <span class="logo-web">Web</span>
+            <span class="logo-foot">Studio</span>
+          </a>
+          <address class="address-container">
+            <p class="add">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@devstudio.com" class="add-link link"
+              >info@devstudio.com</a
+            ><br />
+            <a href="tel:+380961111111" class="add-link link"
+              >+38 096 111 11 11</a
+            >
+          </address>
+        </div>
+        <div class="footer-slikns">
+          <p class="slikns-text">присоединяйтесь</p>
+          <ul class="slikns-list list">
+            <li class="slikns-links">
+              <img src="./img/instagram.svg" alt="Инстаграм" />
+            </li>
+            <li class="slikns-links">
+              <img src="./img/twitter1.svg" alt="Твитер" />
+            </li>
+            <li class="slikns-links">
+              <img src="./img/facebook.svg" alt="Фейсбук" />
+            </li>
+            <li class="slikns-links">
+              <img src="./img/linkedIn.svg" alt="Линкедин" />
+            </li>
+          </ul>
+        </div>
+        <div class="footer-subscription">
+          <p class="slikns-text">подпишитесь на рассылку</p>
+          <div class="sub-container">
+            <p class="email-input">E-mail</p>
+            <a href="#" class="button primary">Подписаться</a>
           </div>
         </div>
-        <div class="copyringht-container">
-          <p>2020 | Developed by GoIT Students</p>
-        </div>
-      </footer>
+      </div>
+      <p class="copyringht container">2020 | Developed by GoIT Students</p>
+    </footer>
   </body>
 </html>

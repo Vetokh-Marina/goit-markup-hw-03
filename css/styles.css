@@ -9,6 +9,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
+  --accent-section-color: #f5f4fa;
 }
 
 body {
@@ -26,15 +27,6 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.logo-footer {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 1;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-
 .logo-web {
   color: #2196f3;
 }
@@ -75,46 +67,32 @@ body {
   color: var(--primary-white-color);
 }
 
-.button.primary {
-  border: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
-  background-color: var(--accent-text-color);
-  text-decoration: none;
-  border-radius: 4px;
-  margin-bottom: 200px;
-  padding: 11px 32px;
-  display: inline-block;
-  min-width: 136px;
-}
-
 /* Наши преимущества */
 .list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
-.list .Item {
-  width: 278px;
-}
-/* Преимущества */
-.advant {
-  padding-top: 94px;
-}
 .section h2 {
-  padding-bottom: 50px;
-  padding-top: 94px;
-  margin: 0;
+  margin: 0 0 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+.advant {
+  border-bottom: 1px solid #ececec;
+}
+.advant-link {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 .advant-title {
   margin-top: 30px;
@@ -138,7 +116,7 @@ body {
   margin-right: 30px;
 }
 .list .advant-element {
-  width: 277px;
+  width: 270px;
 }
 .list .advant-list {
   display: flex;
@@ -165,21 +143,13 @@ body {
   width: 370px;
   border-radius: 0px 0px 4px 4px;
 }
-.section.doing {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.doing img {
-  display: block;
-}
 /* Наша команда */
 .team {
-  padding-bottom: 94px;
-  background-color: #e5e5e5;
+  background-color: var(--accent-section-color);
 }
 .team-position {
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 28px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
@@ -187,10 +157,8 @@ body {
   columns: var(--primary-text-color);
 }
 .team-title {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  margin: 0;
-  font-style: 400;
+  margin-bottom: 10px;
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
@@ -198,9 +166,8 @@ body {
   color: var(--title-text-color);
 }
 .team-element {
-  text-align: center;
   background-color: var(--primary-white-color);
-  width: 278px;
+  width: 270px;
   text-align: center;
   background-color: #fff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -210,23 +177,21 @@ body {
 .team-element:not(:last-child) {
   margin-right: 30px;
 }
-.team-position {
-  margin-bottom: 28px;
-}
-.team img {
-  display: block;
-  padding-bottom: 30px;
-}
+
 .list .slinks {
   justify-content: space-evenly;
+  padding-bottom: 36px;
 }
 /* Клиенты */
-.klient .list {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 94px;
-}
 .klient-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+.klient-element:not(:last-child) {
+  margin-right: 30px;
 }

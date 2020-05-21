@@ -9,6 +9,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
+  --accent-section-color: #f5f4fa;
 }
 /* html {
   box-sizing: border-box;
@@ -18,6 +19,22 @@
 *::after {
   box-sizing: inherit;
 } */
+.button.primary {
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 200px;
+  padding: 11px 32px;
+  display: inline-block;
+  min-width: 136px;
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -31,25 +48,36 @@ body {
   padding: 0;
 }
 .container {
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 1230px;
-  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* Скрывает ненужный элемент (скрытые заголовки) */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 p {
   margin: 0;
 }
-/* page header */
-/* .page-header {
-  background-color: #cccccc;
-} */
 /* Main nav */
 .main-nav {
   display: flex;
@@ -66,12 +94,14 @@ p {
   text-decoration: none;
 }
 .logo-footer {
+  display: block;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 1;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .logo-web {
@@ -131,29 +161,78 @@ p {
 /* Футер */
 footer {
   background-color: #2f303a;
+  color: var(--primary-white-color);
 }
 .page-footer {
   display: flex;
+  align-items: baseline;
+  padding-top: 48px;
 }
-address {
-  text-decoration: none;
-  color: var(--primary-white-color);
-  font-style: normal;
+.footer-address {
+  margin-right: 69px;
+  }
+
+.address-container {
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
 }
-.h3-foot {
-  margin-top: 0;
-  margin-bottom: 0px;
-  color: var(--primary-white-color);
+.add {
+      margin-top: 0;
+      margin-bottom: 9px;
+ }
+ .add-link{
+   display: inline-block;
+ }
+ .add-link:not(:last-child){
+   margin-bottom: 9px;
+ }
+}
+.footer-slikns {
+  padding-bottom: 21px;
+  margin-right: 93px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+  .slikns-links:not(:last-child) {
+    margin-right: 10px;
+}
+ .slikns-text {
+  margin-bottom: 21px;
+  margin-right: 155px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+} 
+.email-input {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 1.87;
+    display: inline-block;
+    min-width: 270px;
+    padding: 10px 58px 10px 12px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-image: initial;
 }
-.copyringht-container {
-  padding-bottom: 21px;
+
+.copyringht {
   color: rgba(255, 255, 255, 0.4);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 18px;
+  padding-bottom: 21px;
   font-size: 12px;
   line-height: 2;
   text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
